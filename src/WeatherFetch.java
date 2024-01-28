@@ -62,10 +62,10 @@ public class WeatherFetch {
             double feelsLike = currentConditions.getDouble("feelslike");
             double humidity = currentConditions.getDouble("humidity");
     
-            weatherData.put("Temperature", String.format("%.2f", temperature));
+            weatherData.put("Temperature", String.format("%.0f°F", temperature));
             weatherData.put("Conditions", conditions);
-            weatherData.put("Feels Like", String.format("%.2f", feelsLike));
-            weatherData.put("Humidity", String.format("%.2f%%", humidity));
+            weatherData.put("Feels Like", String.format("%.0f°F", feelsLike));
+            weatherData.put("Humidity", String.format("%.0f%%", humidity));
 
 
             return weatherData;

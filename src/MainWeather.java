@@ -33,11 +33,15 @@ public class MainWeather extends JFrame {
 
                 // Update the lbData with the weather information
                 StringBuilder displayText = new StringBuilder("<html>");
+
+                displayText.append("Current Conditions:").append("<br>");
+
                 for (Map.Entry<String, String> entry : weatherData.entrySet()) {
                     displayText.append(entry.getKey()).append(": ").append(entry.getValue()).append("<br/>");
                 }
                 displayText.append("</html>");
 
+                
                 lbData.setText(displayText.toString());
                 lbData.setHorizontalAlignment(SwingConstants.CENTER);
             }
