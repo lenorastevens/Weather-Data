@@ -52,8 +52,6 @@ public class WeatherFetch {
 
             JSONObject jsonData = new JSONObject(response.body()); 
 
-            // JSONObject jsonObject = new JSONObject(jsonData);
-
             // Extract and display the desired information
             JSONObject currentConditions = jsonData.getJSONObject("currentConditions");
     
