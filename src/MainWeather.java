@@ -39,6 +39,7 @@ public class MainWeather extends JFrame {
                 displayText.append("</html>");
 
                 lbData.setText(displayText.toString());
+                lbData.setHorizontalAlignment(SwingConstants.CENTER);
             }
         });
 

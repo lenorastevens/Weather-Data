@@ -18,8 +18,6 @@ My purpose for writing this software was to get experience with a GUI as well as
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [SoloLearn](https://www.sololearn.com/en/learn/languages/java)
 - [Visual Crossing Weather](https://www.visualcrossing.com/resources/documentation/weather-api/how-to-fetch-weather-forecast-data-from-a-restful-web-service-in-java/)
 - [VS Code Java Start](https://code.visualstudio.com/docs/java/java-tutorial)
